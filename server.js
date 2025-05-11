@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 const app = express();
 
 app.use(cors({
-    origin: ['http://localhost:5173','https://rephone-admin.vercel.app'],
+    origin: ['https://rephone-client.vercel.app','https://rephone-admin.vercel.app'],
     credentials: true,
 }));
 
