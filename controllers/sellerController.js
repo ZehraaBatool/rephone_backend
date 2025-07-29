@@ -1,6 +1,6 @@
 import pool from "../db/connectDB.js";
 import { validationResult } from "express-validator";
-import bcrypt from 'bcrypt.js';
+import bcrypt from 'bcryptjs';
 import generateTokenAndSetCookie from "../utils/generateTokenAndSetCookie.js";
 
 // register seller
