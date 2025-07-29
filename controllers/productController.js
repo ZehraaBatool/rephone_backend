@@ -1,6 +1,6 @@
 import pool from "../db/connectDB.js";
 import { validationResult } from "express-validator";
-import bcrypt from 'bcrypt.js';
+import bcrypt from 'bcryptjs';
 
 // upload phone
 const uploadPhone = async (req, res) => {
