@@ -1,6 +1,6 @@
 import pool from "../db/connectDB.js";
 import { validationResult } from "express-validator";
-import bcrypt from 'bcrypt.js';
+import bcrypt from 'bcryptjs';
 
 // checkout details
 const createOrder = async (req, res) => {
