@@ -1,6 +1,6 @@
 import pool from "../db/connectDB.js";
 import { validationResult } from "express-validator";
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcrypt.js';
 import generateTokenAndSetCookie from "../utils/generateTokenAndSetCookie.js";
 
 // register admin
